@@ -58,7 +58,7 @@ int ufs_union(ufs_t* ufs, int x, int y) {
 /*
  * @param[in] ufs
  * @param[in] x
- *
+ * @return number of elements in set contains x
  */
 int ufs_set_size(ufs_t* ufs, int x) {
     const int rx = ufs_find(ufs, x);
